@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="Webpage description goes here" />
+  <meta charset="utf-8">
+  <title>Tamnoon App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="tmnn_wsaddress" content="ws://localhost:8000/ws/"/>
+  <script src="ws_connect.js"></script>
+</head>
+
+<body>
+    <div class="app-container">
+        <h4>Name: <span class=" tmnn-name-innerText" > </span> </h4>
+<input class=" tmnnevent-onchange-update-name"   />
+<br>
+<div class=" tmnn-msgs-innerHtml" > </div>
+<br>
+<input class=" tmnn-curr_msg-value tmnnevent-oninput-update-curr_msg"    />
+<button class=" tmnnevent-onclick-send_msg"  >></button>
+    </div>
+</body>
+</html>
