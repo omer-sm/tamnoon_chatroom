@@ -7,7 +7,7 @@ defmodule TamnoonChatroom.MixProject do
       version: "0.1.0",
       elixir: "~> 1.16",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
     ]
   end
 
@@ -23,7 +23,7 @@ defmodule TamnoonChatroom.MixProject do
   defp deps do
     [
       # {:dep_from_hexpm, "~> 0.3.0"},
-      {:tamnoon, "~> 1.0.0-a.2"}
+      {:tamnoon, "~> 1.0.0-a.3"}
     ]
   end
 end
